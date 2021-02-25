@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "264860978856",
+    "project_id": "imagetotext-fc2a1",
+    "storage_bucket": "imagetotext-fc2a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264860978856:android:0491265c765e98cfd3bc9d",
+        "android_client_info": {
+          "package_name": "com.almipy.img_to_text"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264860978856-3ig23bqi8pb4511p5nidsff8cqra3nj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXaymstTB_7MLvp3q_tq1yD7lcRa6a6_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264860978856-3ig23bqi8pb4511p5nidsff8cqra3nj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
