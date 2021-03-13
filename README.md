@@ -1,6 +1,14 @@
-# img_to_text
+# Firebase ML Vision App
 
-A new Flutter project.
+A new Flutter project using all the features of firebase ML Vision.
+
+1> Text Extraction from Image
+
+2> Barcode Scanner
+
+3> Label Detector with High Accuracy
+
+4> Face Detection(*still under developement)
 
 ## Getting Started
 
