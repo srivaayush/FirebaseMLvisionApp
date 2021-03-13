@@ -1,4 +1,4 @@
-package com.almipy.img_to_text
+package com.almipy.scannersapp
 
 import io.flutter.embedding.android.FlutterActivity
 

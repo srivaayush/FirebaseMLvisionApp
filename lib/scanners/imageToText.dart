@@ -7,15 +7,12 @@ import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 // import 'package:clipboard/clipboard.dart';
 
-
-class HomePage extends StatefulWidget {
-  HomePage({Key key}) : super(key: key);
-
+class ImageToText extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  _ImageToTextState createState() => _ImageToTextState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _ImageToTextState extends State<ImageToText> {
   File image;
   Future<File> imageFile;
   ImagePicker imagePicker;
@@ -133,6 +130,9 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("Text Scanner"),
+      ),
       body: SingleChildScrollView(
         child: Container(
           decoration: BoxDecoration(
@@ -150,14 +150,14 @@ class _HomePageState extends State<HomePage> {
               //Output
               //--------------------------------------
               Container(
-                height: 400,
+                height: 450,
                 width: 350,
-                margin: EdgeInsets.only(top: 70),
-                padding: EdgeInsets.only(left: 28, bottom: 5, right: 18),
+                margin: EdgeInsets.only(top: 10),
+                padding: EdgeInsets.only(left: 80, bottom: 90, right: 40,top: 40),
                 child: SingleChildScrollView(
                   child: Padding(
-                    padding: const EdgeInsets.all(12),
-                    child: Text(
+                    padding: const EdgeInsets.all(20),
+                    child: SelectableText(
                       (result == "") ? "No image found yet!" : result,
                       style: TextStyle(
                         fontSize: 16.0,
@@ -228,7 +228,7 @@ class _HomePageState extends State<HomePage> {
               SizedBox(
                 width: 50,
               ),
-              Row(                
+              Row(
                 children: [
                   SizedBox(
                     width: 100,

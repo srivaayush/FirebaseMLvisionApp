@@ -32,6 +32,12 @@ dependencies:
   firebase_ml_vision: ^0.9.6+2
   image_picker: ^0.6.7+22
   clipboard: ^0.1.2+8
+  image: ^2.1.18
+  # image_picker: ^0.6.7+11
+  # tflite: ^1.1.1
+  # flutter_staggered_grid_view:
+  mlkit:
+  
 
 dev_dependencies:
   flutter_test:
@@ -52,6 +58,8 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
+    # - assets/tflite/ssd_mobilenet.tflite
+    # - assets/tflite/ssd_mobilenet.txt
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

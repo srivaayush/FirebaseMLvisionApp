@@ -1,7 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:img_to_text/home.dart';
+// import 'package:img_to_text/home.dart';
+// import 'package:img_to_text/objectDetector.dart';
+import 'package:img_to_text/dashboard.dart';
 import 'package:splashscreen/splashscreen.dart';
+// import 'package:tflite/tflite.dart';
 
 class SplashScreens extends StatefulWidget {
   SplashScreens({Key key}) : super(key: key);
@@ -14,8 +17,8 @@ class _SplashScreensState extends State<SplashScreens> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
-      seconds: 2,
-      navigateAfterSeconds: HomePage(),
+      seconds: 0,
+      navigateAfterSeconds: Dashboard(),
       title: new Text(
         'Image 2 Text Converter',
         style: new TextStyle(
