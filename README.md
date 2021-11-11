@@ -1,5 +1,7 @@
 # Firebase ML Vision App
 
+https://play.google.com/store/apps/details?id=com.almipy.scannersapp
+
 A new Flutter project using all the features of firebase ML Vision.
 
 1> Text Extraction from Image
